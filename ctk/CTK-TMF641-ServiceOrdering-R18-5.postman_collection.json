@@ -1413,14 +1413,14 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{Service_Ordering}}/tmf-api/serviceOrdering/v4/serviceOrder/123123123123?",
+							"raw": "{{Service_Ordering}}/tmf-api/serviceOrdering/v3/serviceOrder/123123123123?",
 							"host": [
 								"{{Service_Ordering}}"
 							],
 							"path": [
 								"tmf-api",
 								"serviceOrdering",
-								"v4",
+								"v3",
 								"serviceOrder",
 								"123123123123"
 							],
@@ -1486,14 +1486,14 @@
 							"raw": "{\n  \"externalId\": \"TMFSO789\",\n  \"priority\": \"3\",\n  \"description\": \"Service order description\",\n  \"category\": \"CloudServiceOrdering\",\n  \"requestedStartDate\": \"2019-03-15T09:37:40.508Z\",\n  \"state\": \"acknowledged\",\n  \"requestedCompletionDate\": \"2019-03-15T09:37:40.508Z\",\n  \"expectedCompletionDate\": \"2000-01-23T04:56:07.000+00:00\",\n    \"note\": [\n    {\n    \"date\": \"2018-01-15T09:37:40.508Z\",\n    \"author\": \"Jean Pontus\",\n    \"text\": \"bla bla bla\"\n  }\n    ]\n}"
 						},
 						"url": {
-							"raw": "{{Service_Ordering}}/tmf-api/serviceOrdering/v4/serviceOrder?",
+							"raw": "{{Service_Ordering}}/tmf-api/serviceOrdering/v3/serviceOrder?",
 							"host": [
 								"{{Service_Ordering}}"
 							],
 							"path": [
 								"tmf-api",
 								"serviceOrdering",
-								"v4",
+								"v3",
 								"serviceOrder"
 							],
 							"query": [
@@ -1558,14 +1558,14 @@
 							"raw": "{\n  \"externalId\": \"TMFS1245\",\n  \"priority\": \"1\",\n  \"description\": \"Service order description\",\n  \"category\": \"CloudServiceOrdering\",\n  \"requestedStartDate\": \"2019-03-15T09:37:40.508Z\",\n  \"state\": \"acknowledged\",\n  \"requestedCompletionDate\": \"2019-03-15T09:37:40.508Z\",\n  \"expectedCompletionDate\": \"2000-01-23T04:56:07.000+00:00\",\n    \"note\": [\n    {\n    \"date\": \"2018-01-15T09:37:40.508Z\",\n    \"author\": \"Jean Pontus\",\n    \"text\": \"bla bla bla\"\n  }\n    ],\n  \"orderItem\": [\n    {\n      \"id\": \"1\",\n      \"action\": \"add\",\n      \"state\": \"acknowledged\",\n      \"service\": {\n        \"state\": \"active\",\n        \"serviceType\" : \"RFS\",\n        \"serviceCharacteristic\": [\n          {\n            \"name\": \"ProtectionLevel\",\n            \"valueType\": \"String\",\n            \"value\": \"BulletProof\"\n          },\n          {\n            \"name\": \"active\",\n            \"valueType\": \"boolean\",\n            \"value\": true\n          }\n        ],\n        \"serviceSpecification\": {\n          \"name\": \"NiceGuyFirewal\",\n          \"version\": \"1\"\n        }\n      }\n    }\n  ]\n}"
 						},
 						"url": {
-							"raw": "{{Service_Ordering}}/tmf-api/serviceOrdering/v4/serviceOrder?",
+							"raw": "{{Service_Ordering}}/tmf-api/serviceOrdering/v3/serviceOrder?",
 							"host": [
 								"{{Service_Ordering}}"
 							],
 							"path": [
 								"tmf-api",
 								"serviceOrdering",
-								"v4",
+								"v3",
 								"serviceOrder"
 							],
 							"query": [
